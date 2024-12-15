@@ -43,7 +43,7 @@ cd azure_secure
 
 Pour chiffrer un fichier localement et le sauvegarder dans un dossier :
 ```bash
-python main.py -f /chemin/vers/fichier.txt -p MotDePasse -l /chemin/vers/dossier 
+python main.py -f /chemin/vers/fichier.txt -p MotDePasse -l /chemin/vers/dossier -e
 ```
 **Exemple** :
 ```bash
@@ -78,7 +78,7 @@ python main.py -f /home/kali/test/cryptage.txt -p HELLO1234 -l /home/kali/test/d
 
 Pour chiffrer et sauvegarder un fichier directement sur un conteneur Azure Blob :
 ```bash
-python Azure.py -f /chemin/vers/fichier -b nom_du_blob -c nom_du_conteneur -cs "chaîne_de_connexion" -e
+python Azure.py -f /chemin/vers/fichier -b nom_du_blob -c nom_du_conteneur -cs "chaîne_de_connexion"
 ```
 
 #### Déchiffrement et Récupération depuis Azure Blob Storage
