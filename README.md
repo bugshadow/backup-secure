@@ -108,7 +108,7 @@ python Azure.py -f /chemin/vers/fichier -b nom_du_blob -c nom_du_conteneur -cs "
 - Toujours sauvegarder vos mots de passe et clés dans un endroit sécurisé.
 - Testez le processus complet pour vous assurer qu'aucune donnée n'est perdue lors du chiffrement ou du transfert.
 
-## Auteur
+## Auteurs
 **Omar Bouhaddach**
 
 **Rayane Berrada**
