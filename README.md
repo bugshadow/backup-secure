@@ -43,7 +43,7 @@ cd azure_secure
 
 Pour chiffrer un fichier localement et le sauvegarder dans un dossier :
 ```bash
-python main.py -f /chemin/vers/fichier.txt -p MotDePasse -l /chemin/vers/dossier -e
+python main.py -f /chemin/vers/fichier.txt -p MotDePasse -l /chemin/vers/dossier 
 ```
 **Exemple** :
 ```bash
