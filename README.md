@@ -47,7 +47,7 @@ python main.py -f /chemin/vers/fichier.txt -p MotDePasse -l /chemin/vers/dossier
 ```
 **Exemple** :
 ```bash
-python main.py -f /home/kali/fichier/omarbouhaddach.txt -p CODM -l /home/kali/fichier -e
+python main.py -f /home/kali/fichier/fichier.txt -p CODM -l /home/kali/fichier -e
 ```
 
 ### 2. Déchiffrement Local
